@@ -2,7 +2,5 @@ namespaces:
 - o
 - de
 - .de
-- github: aheck1969
-defaultKeyword: g
-language: de
-country: de
+- github: .
+  name: aheck
