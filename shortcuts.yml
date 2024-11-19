@@ -16,7 +16,7 @@ xbmc 0:
   examples:
   - description: Startseite der XBMC_DB
 xbmc 1:
-  url: https://www.xbmcdb.de/index.php?reqNav=search&amp;search=<query>
+  url: https://www.xbmcdb.de/index.php?reqNav=search&search=<query>
   include: xbmc 0
   examples:
   - arguments: Deadpool
