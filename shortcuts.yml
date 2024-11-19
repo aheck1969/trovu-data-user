@@ -1,12 +1,14 @@
 # Documentation:
 # https://trovu.net/docs/shortcuts/
 
-examplekeyword 0: http://www.example.com/
-examplekeyword 1: http://www.example.com/?q=<query>
-examplekeyword 2:
-  url: http://www.example.com/?q=<query>&p=<puery>
-  title: Custom shortcut
-  description: My custom shortcut with the keyword examplekeyword and 2 arguments.
-  tags:
-  - example
+# examplekeyword 0: http://www.example.com/
+# examplekeyword 1: http://www.example.com/?q=<query>
+xbmc:
+  url: https://www.xbmcdb.de/index.php?reqNav=search&search=<query>
+  title: XBMC_DB Suche
+  description: Suche nach Filmen und Serien in der XMBC_DB.
+ao 1:
+  url: https://www.amazon.de/gp/your-account/order-history/ref=ppx_yo_dt_b_search?search=<query>
+  title: Amazon Bestellungen
+  argumentString: query
 ~
