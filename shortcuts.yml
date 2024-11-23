@@ -21,3 +21,14 @@ xbmc 1:
   examples:
   - arguments: Deadpool
     description: Suche nach "Deadpool"
+trakt 0:
+  url: https://trakt.tv/
+  title: Trakt
+  examples:
+  - descripiton: Startseite von Trakt
+trakt 1:
+  url: https://trakt.tv/search?query=<query>
+  include: trakt 1
+  examles:
+  - arguments: Deadpool
+    description: Suche nach "Deadpool"
