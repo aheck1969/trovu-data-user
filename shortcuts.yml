@@ -14,7 +14,7 @@ lbx 0:
   url: https://letterboxd.com/
   title: Letterboxd
   tests: need to be logged in
-  - exeamples:
+  - examples:
     description: Startseite von Letterboxd
 lbx 1:
   url: https://letterboxd.com/search/<query>/?adult
