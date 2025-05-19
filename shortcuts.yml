@@ -17,7 +17,7 @@ lbx 0:
   examples:
   - description: Gehe zur Startseite von Letterboxd
 lbx 1:
-  url: https://letterboxd.com/search/<query/
+  url: https://letterboxd.com/search/<query>/
   include: lbx 0
   examples:
   - arguments: Deadpool
