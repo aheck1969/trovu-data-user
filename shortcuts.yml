@@ -10,6 +10,12 @@ ao 1:
   examples:
   - arguments: goethe
     description: Suche nach meinen Bestellungen von "goethe"
+lbx 0:
+  url: https://letterboxd.com/search/<query>/?adult
+  title: Letterboxd Filmsuche
+  examples:
+  - arguments: Deadpool
+    description: Suche nach "Deadpool"
 xbmc 0:
   url: https://www.xbmcdb.de/
   title: XBMC_DB
