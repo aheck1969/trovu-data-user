@@ -11,7 +11,14 @@ ao 1:
   - arguments: goethe
     description: Suche nach meinen Bestellungen von "goethe"
 lbx 0:
+  url: https://letterboxd.com/
+  title: Letterboxd
+  tests: need to be logged in
+  - exeamples:
+    description: Startseite von Letterboxd
+lbx 1:
   url: https://letterboxd.com/search/<query>/?adult
+  include: lbx 0
   title: Letterboxd Filmsuche
   examples:
   - arguments: Deadpool
