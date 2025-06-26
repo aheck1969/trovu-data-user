@@ -12,7 +12,7 @@ ao 1:
     description: Suche nach meinen Bestellungen von "goethe"
 lbx 0:
   url: https://letterboxd.com/
-  title: Ltterboxd
+  title: Letterboxd
   tests: need to be logged in
   examples:
   - description: Gehe zur Startseite von Letterboxd
@@ -22,6 +22,24 @@ lbx 1:
   examples:
   - arguments: Deadpool
     description: Suche auf Letterboxd nach dem Film "Deadpool"
+trakt 0:
+  url: https://trakt.tv/
+  title: Trakt
+  tests: need to be logged in
+  examples:
+  - description: Gehe zur Startseite von Trakt
+trakt 1:
+  url: https://trakt.tv/search/?query=<query>
+  include: trakt 0
+  examples:
+  - arguments: Deadpool
+    description: Suche auf Trakt nach dem Film "Deadpool"
+trakp 0:
+  url: https://trakt.tv/search/people?query=<query>
+  include: trakt 0
+  examples:
+  - arguments: Robert De Niro
+    description: Suche auf Trakt nach der Person "Robert De Niro"
 xbmc 0:
   url: https://www.xbmcdb.de/
   title: XBMC_DB
