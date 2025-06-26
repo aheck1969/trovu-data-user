@@ -36,7 +36,7 @@ trakt 1:
     description: Suche auf Trakt nach dem Film "Deadpool"
 trakp 0:
   url: https://trakt.tv/
-  title: Trakt
+  title: Trakt People
   tests: need to be logged in
   examples:
   - description: Gehe zur Startseite von Trakt
@@ -45,7 +45,7 @@ trakp 1:
   include: trakp 0
   examples:
   - arguments: Robert De Niro
-    description: Suche auf Trakt nach der Person "Robert De Niro"
+    description: Suche auf Trakt nach dem Film "Robert De Niro"
 xbmc 0:
   url: https://www.xbmcdb.de/
   title: XBMC_DB
