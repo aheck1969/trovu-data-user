@@ -46,6 +46,17 @@ trakp 1:
   examples:
   - arguments: Robert De Niro
     description: Suche auf Trakt nach dem Film "Robert De Niro"
+scrn 0:
+  url: https://www.scr-n.media/
+  title: scr:n
+  examples:
+  - description: Startseite von scr:n
+scrn 1:
+  url: https://scr-n.media/search?q=<query>
+  include: scrn 0
+  examples:
+  - arguments: Deadpool
+    description: Suche nach "Deadpool"
 xbmc 0:
   url: https://www.xbmcdb.de/
   title: XBMC_DB
