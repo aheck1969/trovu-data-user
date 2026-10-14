@@ -57,6 +57,17 @@ scrn 1:
   examples:
   - arguments: Deadpool
     description: Suche nach "Deadpool"
+faw 0:
+  url: https://fontawesome.com/
+  title: Font Awesome
+  examples:
+  - description: Startseite von Font Awesome
+faw 1:
+  url: https://fontawesome.com/search?q=<query>
+  include: faw 0
+  examples:
+  - arguments: link
+    description: Suche nach einem Icon mit Titel oder Eigenschaft "link"
 xbmc 0:
   url: https://www.xbmcdb.de/
   title: XBMC_DB
